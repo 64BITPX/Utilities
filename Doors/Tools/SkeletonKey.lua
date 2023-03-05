@@ -8,7 +8,7 @@ local exampleTool = loadstring(game:HttpGet("https://raw.githubusercontent.com/V
 -- Create custom shop item
 CustomShop.CreateItem(exampleTool, {
     Title = "Skeleton Key",
-    Desc = "Single Use,Blocks most attacks",
+    Desc = "Five uses,Holds secrets",
     Image = "https://raw.githubusercontent.com/VeaselGod/Utilities1/main/SkeletonKey.lua",
     Price = 200,
     Stack = 1,
