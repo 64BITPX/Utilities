@@ -8,9 +8,9 @@ local exampleTool = ([[This file was protected with MoonSec V3 by Federal#9999]]
 
 -- Create custom shop item
 CustomShop.CreateItem(exampleTool, {
-    Title = "Example Item",
-    Desc = "Example description",
+    Title = "Crucifix",
+    Desc = "Single Use,Blocks most attacks",
     Image = "https://cdn.discordapp.com/attachments/1034486774627573821/1035460240352747541/ExampleImage.png",
-    Price = 999,
+    Price = 1,
     Stack = 1,
 })
