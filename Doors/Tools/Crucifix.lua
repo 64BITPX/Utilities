@@ -10,7 +10,7 @@ local exampleTool = ([[This file was protected with MoonSec V3 by Federal#9999]]
 CustomShop.CreateItem(exampleTool, {
     Title = "Crucifix",
     Desc = "Single Use,Blocks most attacks",
-    Image = "https://cdn.discordapp.com/attachments/1034486774627573821/1035460240352747541/ExampleImage.png",
+    Image = "https://static.wikia.nocookie.net/doors-game/images/8/88/Icon_crucifix2.png/revision/latest?cb=20220728033038",
     Price = 1,
     Stack = 1,
 })
