@@ -3,7 +3,7 @@ local CustomShop = loadstring(game:HttpGet("https://raw.githubusercontent.com/Re
 
 
 -- Create your tool here
-local exampleTool = loadstring(game:HttpGet("https://raw.githubusercontent.com/VeaselGod/Utilities1/main/Crucifix.lua", true))()
+local exampleTool = loadstring(game:HttpGet("https://raw.githubusercontent.com/VeaselGod/Utilities1/main/Crucifix.txt", true))()
 
 -- Create custom shop item
 CustomShop.CreateItem(exampleTool, {
