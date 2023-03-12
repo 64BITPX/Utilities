@@ -1,3 +1,7 @@
+firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent,'Getting Data......',true,5)
+wait(4)
+firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent,'Ready To Use',true,5)
+wait(1)
 local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
 local CustomShop = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Shop%20Items/Source.lua"))()
 local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
@@ -11,7 +15,6 @@ CustomShop.CreateItem(exampleTool, {
     Price = 200,
     Stack = 1,
 })
-wait(5)
 Achievements.Get({
     Title = "Veasel",
     Desc = "Subcribe to Veasel.",
@@ -36,11 +39,3 @@ Achievements.Get({
     Reason = "Get the crucifix from pre-run shop.",
     Image = "https://static.wikia.nocookie.net/doors-game/images/8/88/Icon_crucifix2.png/revision/latest?cb=20220728033038",
 })
-
-firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent,'ScottAc#9357 Crucifix Loaded.',true,5)
-wait(4)
-firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent,'Obfuscated By MoonsecV.3.',true,5)
-wait(4)
-firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent,'Custom Shop By Vynixu.',true,5)
-wait(4)
-firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent,'Crucifix And Chain And Cross Made By Veasel.',true,5)
